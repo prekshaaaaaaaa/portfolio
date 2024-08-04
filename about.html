@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<style>
+body{
+    background-color: rgb(244, 204, 210);
+}
+.box{
+    width:200px;
+    text-align: right;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 10rem;
+}
+.header{
+   
+   height:50px;
+   text-align: right;
+   color: rgb(220, 181, 134);
+   border: none;
+   padding: 12px;
+
+}
+.collection,.help,.contact,.shop{
+   color: palevioletred;
+  
+   border: none;
+   text-align: right;
+   padding: 12px;
+}
+.help{
+    background-color:  #F5CEC7;
+    color: rgb(238, 115, 136);
+}
+.header a{
+   text-decoration: none;
+   list-style-type: none;
+   padding: 15px;
+   text-align: center;
+}
+.header a:hover{
+   background-color:  #F5CEC7;
+   color: rgb(238, 115, 136);
+}
+.header ul{
+   padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+
+}
+.header li{
+   padding: 15px;
+
+}
+h1{
+    font-size: 50px;
+}
+.para{
+  font-size: 20px;
+  color:grey;
+}
+
+#btn{
+   
+   border: 1px black solid;
+   border-radius: 5px;
+   text-decoration: none;
+   padding: 10px 15px;
+   box-shadow: 0 0 20px white;
+   filter: drop-shadow(0 0 20px pink);
+   color: black;
+}
+#btn:hover{
+   box-shadow:0 0 20px rgb(225, 93, 93);
+   height: 50px;
+   padding: 15px 20px;
+}
+#img{
+    filter:drop-shadow(0 0 20px rgb(218, 89, 110))
+}
+@media(max-width:700px){
+    body{
+        background-image: url();
+    }
+    #img{
+        height: 200px;
+        position: fixed;
+        top:0;
+        margin:35px 65px 15px 75px;
+    }
+    h1{
+        width: 700px;
+        position: fixed;
+        left:30px;
+        margin:100px 0 10px 95px;
+        
+       
+    }
+    .header{
+        position: fixed;
+        top:0;
+        height: 20px;
+    }
+    
+    .para{
+        width: 400px;
+        position: fixed;
+        left:0;
+        bottom: 20;
+        margin: 0 20px 30px 20px;
+        top:58vh;
+        
+    }
+    #btn{
+        position: fixed;
+        bottom: 0;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+        left:80;
+        margin:0px 0 30px 80px;
+
+    }
+    .collection,.help,.contact,.shop{
+        top:0;
+        padding: 0;
+    }
+    
+
+}
+</style>
+<body>
+    <div class="header">
+    
+        <ul>
+            <a href="portfolio.html" class="collection"> HOME</a>
+            <a href="about.html" class="help">ABOUT</a>
+            <a href="resume.html" class="contact" >RESUME</a>
+            <a href="contact.html" class="shop">CONTACT</a>
+        </ul>  
+        </div>
+    <div class="flex">
+  
+        <div class="image">
+          <img id="img" src="one.png" height="300" width="200" alt="">
+        </div>
+        <div class="head">
+            <h1>About Me</h1>
+            <div class="box">
+            <p class="para"><i class="ri-double-quotes-l"></i>With months of experience as Web Developer. I have acquired the skills and knowledge to make your project a sucess. I enjoy every step of design process from disscussion and collaboration.<i class="ri-double-quotes-r"></i></p>
+            <a href="resume.html" id="btn">SEE RESUME</a>
+        <div class="header2">
+
+        </div>
+
+        
+    </div>
+
+</body>

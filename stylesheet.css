@@ -1,0 +1,183 @@
+--root{
+    max-width: 1200px;
+}
+.header{
+   
+    height:50px;
+    text-align: right;
+    color: rgb(220, 181, 134);
+    border: none;
+    padding: 12px;
+
+}
+.collection,.help,.contact,.shop{
+    color: palevioletred;
+    border: none;
+    text-align: right;
+    padding: 12px;
+}
+.collection{
+    background-color:  #F5CEC7;
+    color: rgb(238, 115, 136);
+}
+.header a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px;
+    text-align: center;
+}
+.header a:hover{
+    background-color:  #F5CEC7;
+    color: rgb(238, 115, 136);
+}
+.header ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+
+}
+.header li{
+    padding: 15px;
+
+}
+.head {
+    width: 600px;
+    margin-top: 100px;
+}
+  
+.flex,.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 10rem;
+
+}
+.flex1{
+    background-color: rgb(244, 204, 210);
+}
+#img {
+    border-radius: 15px;
+    margin-top: 100px;
+}
+#btn{
+    background-color: pink;
+    height: 40px;
+    border: 1px black solid;
+    border-radius: 5px;
+    filter:drop-shadow(0 0 10px pink);
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    filter:drop-shadow(0 0 20px rgb(225, 97, 119));
+    height: 50px;
+}
+.btn--download{
+   
+    border: 1px black solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 15px;
+    box-shadow: 0 0 20px white;
+    filter: drop-shadow(0 0 20px pink);
+    color: black;
+  
+}
+.btn--download:hover{
+    filter:drop-shadow(0 0 20px rgb(225, 97, 119));
+    height: 50px;
+    padding: 15px 20px;
+    color: black;
+}
+.btn1{
+   
+    background-color: rgb(240, 129, 148);
+    border: 1px black solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 15px;
+    filter: drop-shadow(0 0 20px pink);
+    margin-top:20px;
+    color: black;
+}
+    
+
+.btn1:hover{
+    filter:drop-shadow(0 0 20px rgb(225, 97, 119));
+    padding: 15px 20px;
+}
+
+.para {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+    margin-bottom: 40px;
+   
+}
+nav.checkbox{
+    display:none;
+}
+nav input {
+    display: none;
+}
+  
+nav.checkbox i {
+    font-size: 2rem;
+    color: #e1988b;
+    display:none;
+    position:fixed;
+    right:0;
+}
+
+@media(max-width:700px){
+    #img{
+        height: 250px;
+        border-radius: 450px;
+        position: fixed;
+        top:0;
+        margin:35px 85px 35px 75px;
+    }
+    h1{
+        width: 700px;
+        position: fixed;
+        top: 53vh;
+        left:0;
+        margin:0 95px 195px 95px;
+        
+       
+    }
+    
+    .header{
+        position: fixed;
+        top:0;
+        height: 20px;
+    }
+    
+    .para{
+        width: 400px;
+        position: fixed;
+        left:0;
+        bottom: 20;
+        margin: 0 20px 30px 20px;
+        top:68vh;
+        
+    }
+    .button1{
+        position: fixed;
+        bottom: 0;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+        left:0;
+        margin:0px 80px 20px 80px;
+
+    }
+    .collection,.help,.contact,.shop{
+        top:0;
+        padding: 0;
+    }
+    
+}
+  

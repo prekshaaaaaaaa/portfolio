@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<style>
+.header1{
+    background-color: lightpink;
+    height: 460px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+h1{
+    font-size: 50px;
+}
+.header{
+   
+   height:50px;
+   text-align: right;
+   color: rgb(220, 181, 134);
+   border: none;
+   padding: 12px;
+
+}
+.collection,.help,.contact,.shop{
+   color: palevioletred;
+  
+   border: none;
+   text-align: right;
+   padding: 12px;
+}
+.contact{
+    background-color:  #F5CEC7;
+    color: rgb(238, 115, 136);
+}
+.header a{
+   text-decoration: none;
+   list-style-type: none;
+   padding: 15px;
+   text-align: center;
+}
+.header a:hover{
+   background-color:  #F5CEC7;
+   color: rgb(238, 115, 136);
+}
+.header ul{
+   padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+
+}
+.header li{
+   padding: 15px;
+
+}
+.btn--download{
+   
+   border: 1px black solid;
+   border-radius: 5px;
+   text-decoration: none;
+   padding: 10px 15px;
+   box-shadow: 0 0 20px rgb(234, 125, 143);
+   color: black;
+
+ 
+}
+.btn--download:hover{
+    background-color: rgb(237, 113, 133);
+    height: 50px;
+    padding: 15px 20px;
+    box-shadow:50px rgb(233, 70, 97);
+}
+#btn1{
+   
+    height: 40px;
+    border:  1px solid black;
+    border-radius: 5px;
+    filter:drop-shadow(0 0 10px pink);
+
+   
+}
+@media(max-width:700px){
+    .header3{
+        display:none;
+    }
+    .para{
+        display:none;
+    }
+}
+#btn1:hover{
+    filter:drop-shadow(0 0 20px rgb(225, 97, 119));
+    height: 50px;
+}
+.para,.para1{
+    font-size: 25px;
+    font-weight: 5px;
+    text-align: left;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(230, 187, 194);
+    padding:10px;
+    filter:drop-shadow(0 0 20px rgb(225, 97, 119));
+}
+
+.header2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+}
+.header3{
+    background-image: url("HTML.gif");
+    height: 700px;
+}
+</style>
+<body>
+    <nav>
+        <div class="header">
+          
+        <ul>
+            <a href="portfolio.html" class="collection"> HOME</a>
+            <a href="about.html" class="help">ABOUT</a>
+            <a href="resume.html" class="contact" >RESUME</a>
+            <a href="contact.html" class="shop">CONTACT</a>
+        </ul>  
+        </div>
+      </nav>
+    <div class="header1">
+      <h1>About Me</h1>
+     <div class="header2">
+      <p class="para">
+         NAME: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Preksha<br>
+         DATE OF BIRTH: &nbsp; &nbsp;&nbsp;&nbsp; 29th May 2004<br>
+         ADDRESS: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Vikaspuri, New Delhi<br>
+         EMAIL:&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; sethipreksha@gmail.com<br>
+         PHONE:&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  +91 7011773292<br>
+
+
+      </p>
+     </div>
+     <div class="button1">
+       <a href="CV.pdf" download class="btn btn--download"><b>DOWNLOAD CV</b></a>
+      </div>
+      <div class="header3">
+      <h1>MY SKILLS</h1>
+      </div>
+
+    </div>
+</body>
